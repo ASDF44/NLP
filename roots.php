@@ -8,7 +8,7 @@
     <h1>Hello</h1>
     <?php
 	//echo "Hello";
-	$str = file_get_contents('C:/Users/Saurabh/Desktop/Projects/NLP/marathi corpus/finalize/relations1.json');
+	$str = file_get_contents('finalize/relations1.json');
 	$json = json_decode($str, true);
   ?>
 
